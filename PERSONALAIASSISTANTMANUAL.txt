@@ -1,0 +1,81 @@
+Instruction Manual for Python Voice Assistant
+This manual will guide you through the usage and setup of the Python Voice Assistant. The assistant has a wide range of features, including web search, weather updates, news headlines, reminders, note taking, and integration with various services such as email, texting, smart home devices, Google Calendar, and Trello.
+
+Setup
+Python and Required Libraries
+
+Make sure you have Python 3 installed on your machine. You can download it from the official Python website.
+
+After Python is installed, you need to install the following libraries using pip:
+
+Copy code
+pip install pyttsx3
+pip install SpeechRecognition
+pip install wikipedia
+pip install wolframalpha
+pip install twilio
+pip install qhue
+pip install google-auth-httplib2
+pip install google-auth-oauthlib
+pip install google-auth
+pip install google-api-python-client
+pip install PyDictionary
+pip install forex-python
+API Keys and Other Credentials
+
+The Python Voice Assistant uses various APIs, for which you need to obtain API keys. After obtaining the keys, replace the placeholders in the code with your own keys. Here are the APIs and services you need to sign up for:
+
+OpenWeatherMap
+News API
+WolframAlpha
+Twilio
+Philips Hue
+Google Calendar
+Trello
+For sending emails, you'll also need to input your email address and password.
+
+Music Directory
+
+For the play music function, you need to specify the path to your music directory in the play_music function.
+
+Voice Assistant Invocation
+
+To invoke the voice assistant, simply run the Python script.
+
+Commands
+"Hello": The assistant will greet you.
+"Time": The assistant will tell you the current time.
+"Search {query}": The assistant will perform a Google search with the specified query.
+"Weather {city}": The assistant will tell you the current weather in the specified city.
+"Play music": The assistant will play music from your specified music directory.
+"Write note {note}": The assistant will write the specified note in a text file.
+"Set reminder {reminder}": The assistant will set a reminder with the specified text.
+"Read news": The assistant will read the top 5 news headlines.
+"Question {question}": The assistant will answer the specified question.
+"Send email {message}": The assistant will send an email with the specified message.
+"Send text {message}": The assistant will send a text message with the specified message.
+"Lights on": The assistant will turn on your Philips Hue lights.
+"Lights off": The assistant will turn off your Philips Hue lights.
+"Add event": The assistant will add an event to your Google Calendar.
+"Add task {description}": The assistant will add a task to your Trello board with the specified description.
+"Meaning {word}": The assistant will give you the meaning of the specified word.
+"Synonym {word}": The assistant will give you synonyms for the specified word.
+"Antonym {word}": The assistant will give you antonyms for the specified word.
+"Convert {amount} {from_currency} to {to_currency}": The assistant will convert the specified amount from the specified currency to the other specified currency.
+"Exit": The assistant will stop listeningfor commands and shut down.
+Troubleshooting
+Speech Recognition Problems: If the assistant is not recognizing your voice correctly, make sure your microphone is set up properly and the environment is quiet enough for the assistant to clearly hear your voice.
+
+API Problems: If the assistant is not able to fetch data from the APIs, make sure you have entered the correct API keys and other credentials in the code.
+
+Email and Text Problems: If the assistant is not able to send emails or texts, make sure you have entered the correct email address, password, and phone number in the code.
+
+Calendar and Task Problems: If the assistant is not able to add events to your Google Calendar or tasks to your Trello board, make sure you have entered the correct Google and Trello credentials in the code.
+
+Light Control Problems: If the assistant is not able to control your Philips Hue lights, make sure you have entered the correct Hue Bridge IP and username in the code.
+
+Music Problems: If the assistant is not able to play music, make sure you have specified the correct path to your music directory in the code.
+
+Dictionary and Currency Conversion Problems: If the assistant is not able to provide dictionary definitions or perform currency conversions, make sure you have the PyDictionary and forex-python libraries installed.
+
+Remember, the Python Voice Assistant is designed to be customized. Feel free to modify the code to add new commands and features that suit your needs. Enjoy using your new Python Voice Assistant!
